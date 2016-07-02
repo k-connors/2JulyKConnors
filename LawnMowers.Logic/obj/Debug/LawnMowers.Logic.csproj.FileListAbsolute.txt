@@ -1,0 +1,16 @@
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll.config
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.pdb
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.dll
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.pdb
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.csprojResolveAssemblyReference.cache
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.dll
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.pdb
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll.config
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.pdb
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.dll
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.pdb
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.dll
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.pdb

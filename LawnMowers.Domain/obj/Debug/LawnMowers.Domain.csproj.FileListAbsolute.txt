@@ -1,0 +1,10 @@
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.dll
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.pdb
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.csprojResolveAssemblyReference.cache
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.dll
+c:\users\kerri\documents\visual studio 2015\Projects\LawnMowers\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.pdb
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.dll
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.pdb
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.dll
+C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.pdb
