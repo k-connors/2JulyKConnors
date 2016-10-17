@@ -2,4 +2,4 @@ version: 1.0.{build}
 build:
   project: LawnMowers.sln
   verbosity: minimal
-on_finish: $(APPVEYOR_BUILD_FOLDER)tests.bat
+on_finish: \tests.bat
