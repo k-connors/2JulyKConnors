@@ -14,3 +14,11 @@ C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domai
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.csprojResolveAssemblyReference.cache
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.dll
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.pdb
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll.config
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Logic.pdb
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.pdb
+C:\test\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.csprojResolveAssemblyReference.cache
+C:\test\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Logic.pdb

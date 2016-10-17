@@ -8,3 +8,8 @@ C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\bin\Debug\LawnMowers.Doma
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.dll
 C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.pdb
+C:\test\2JulyKConnors\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.dll
+C:\test\2JulyKConnors\LawnMowers.Domain\bin\Debug\LawnMowers.Domain.pdb
+C:\test\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.csprojResolveAssemblyReference.cache
+C:\test\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.dll
+C:\test\2JulyKConnors\LawnMowers.Domain\obj\Debug\LawnMowers.Domain.pdb
