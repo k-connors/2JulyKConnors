@@ -1,14 +1,14 @@
 if not exist "%~dp0GeneratedReports" mkdir "%~dp0GeneratedReports"
  
 REM Remove any previous test execution files to prevent issues overwriting
-IF EXIST "%~dp0LawnMowersServicetrx" del "%~dp0LawnMowersService.trx%"
+IF EXIST "%~dp0LawnMowersService.trx" del "%~dp0LawnMowersService.trx%"
  
 REM Remove any previously created test output directories
 CD %~dp0
 FOR /D /R %%X IN (%USERNAME%*) DO RD /S /Q "%%X"
 
 call :RunOpenCoverUnitTestMetrics
-call :RunOpenCoverUnitTestMetrics
+
 if %errorlevel% equ 0 (
  call :RunReportGeneratorOutput
 )
