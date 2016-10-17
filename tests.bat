@@ -9,9 +9,6 @@ FOR /D /R %%X IN (%USERNAME%*) DO RD /S /Q "%%X"
 
 call :RunOpenCoverUnitTestMetrics
 
-if %errorlevel% equ 0 (
- call :RunReportGeneratorOutput
-)
  
 REM Launch the report
 if %errorlevel% equ 0 (
