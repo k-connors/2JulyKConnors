@@ -24,7 +24,7 @@ exit /b %errorlevel%
 -register:user ^
 -targetargs:"/testcontainer:\"%~dp0\LawnMowers.Test\bin\Debug\LawnMowers.Test.dll\" /resultsfile:\"%~dp0LawnMowersService.trx\"" ^
 -target:"%VS140COMNTOOLS%\..\IDE\mstest.exe" ^
--filter:"+[LawnMowers.Logic]*" ^
+-filter:"+[LawnMowers.Service]*" ^
 -mergebyhash ^
 -skipautoprops ^
 -output:"%~dp0\GeneratedReports\LawnMowersServiceReport.xml"
