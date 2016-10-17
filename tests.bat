@@ -15,7 +15,7 @@ if %errorlevel% equ 0 (
  
 REM Launch the report
 if %errorlevel% equ 0 (
- call :RunLaunchReport
+ call :CoverallsGo
 )
 exit /b %errorlevel%
 
@@ -39,3 +39,6 @@ exit /b %errorlevel%
 :RunLaunchReport
 start "report" "%~dp0\GeneratedReports\ReportGenerator Output\index.htm"
 exit /b %errorlevel%
+
+:CoverallsGo
+"%~dp0\packages\coveralls.net.0.7.0\tools\csmacnz.Coveralls.exe" --opencover -i .\GeneratedReports\LawnMowersServiceReport.xml 
