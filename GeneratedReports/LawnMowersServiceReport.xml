@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Summary numSequencePoints="104" visitedSequencePoints="101" numBranchPoints="59" visitedBranchPoints="52" sequenceCoverage="97.12" branchCoverage="88.14" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="11" numMethods="11" />
   <Modules>
     <Module skippedDueTo="Filter" hash="78-86-CA-91-BC-E9-44-44-8A-FE-35-6A-EA-51-55-5A-F6-5A-42-46">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
@@ -116,10 +116,476 @@
       <ModuleName>Microsoft.VisualStudio.TeamSystem.Licensing</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="A7-19-32-63-FE-18-97-73-BB-D7-3E-6A-F1-5A-36-30-80-25-43-24">
+    <Module skippedDueTo="Filter" hash="55-2E-9A-0C-66-D3-30-F6-A1-43-5F-A0-D3-F9-8F-9B-01-2F-EC-7D">
       <ModulePath>C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Test.dll</ModulePath>
-      <ModuleTime>2016-10-17T07:55:58.4373974Z</ModuleTime>
+      <ModuleTime>2016-10-17T09:22:44.5368957Z</ModuleTime>
       <ModuleName>LawnMowers.Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-06-33-34-09-49-27-53-2B-1A-30-21-7E-77-C6-61-2F-7C-2B-F8">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ControllerObject\v4.0_14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ControllerObject.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:08:00.1434999Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ControllerObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7F-4B-70-CC-12-9D-55-8A-0D-C7-AB-EB-13-D1-27-08-44-9A-1F-C6">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentProcessManager\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentProcessManager.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:08:00.6903728Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-6F-F3-F5-1C-3A-A7-26-E2-D9-16-C9-A4-9C-AD-C3-B6-CA-24-A2">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.6681141Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8B-5A-47-38-2B-49-D7-4F-F4-5E-6E-5F-FC-84-03-9E-7D-5C-B3-DB">
+      <ModulePath>c:\test\2julykconnors\lawnmowers.test\bin\debug\LawnMowers.Domain.dll</ModulePath>
+      <ModuleTime>2016-10-13T16:23:28.1416168Z</ModuleTime>
+      <ModuleName>LawnMowers.Domain</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A0-F3-B6-D0-A2-3A-FF-F3-AD-35-37-8D-73-62-EA-1A-81-7E-1B-50">
+      <ModulePath>c:\test\2julykconnors\lawnmowers.test\bin\debug\Microsoft.Practices.Unity.dll</ModulePath>
+      <ModuleTime>2016-10-13T16:20:27.7928689Z</ModuleTime>
+      <ModuleName>Microsoft.Practices.Unity</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-9F-A3-39-21-7F-A6-A8-62-42-36-5D-39-6A-E3-44-A3-53-08-C2">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.6525201Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-FF-9D-4B-0C-AE-7A-3C-63-A6-9E-91-68-0A-BA-A4-D2-4E-03-EE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.7082446Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E9-AC-62-EB-B0-64-3B-FF-B2-43-D8-89-C5-35-A8-AB-CD-1B-A5-2A">
+      <ModulePath>c:\test\2julykconnors\lawnmowers.test\bin\debug\Microsoft.Practices.ServiceLocation.dll</ModulePath>
+      <ModuleTime>2016-10-13T16:20:27.7788678Z</ModuleTime>
+      <ModuleName>Microsoft.Practices.ServiceLocation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-47-DF-DB-F9-44-F7-01-45-88-53-04-81-38-D1-35-A9-F1-C7-BC">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.7306199Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-A5-01-5E-EC-AC-BF-EF-FF-46-0A-E4-FE-04-97-46-46-6A-DB-E3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Linq.Expressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.6837407Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3D-C2-90-A3-AF-8D-6E-62-C2-9A-07-A8-F3-59-B6-1D-52-CA-A5-EF">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Resources.ResourceManager\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.7082446Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="80-CF-BB-3C-EE-58-4C-C3-8D-83-C0-3A-D4-76-DC-8C-4B-DD-48-83">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.4425936Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-2F-AC-E9-8B-AA-CC-F8-8F-C3-0D-0E-F2-2C-A2-FF-62-EF-2C-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Tools\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Tools.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:01.2848572Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tools</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4C-89-BF-38-16-4E-9D-79-E6-3D-4C-DF-BA-B7-64-7C-0A-41-01-99">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.5363528Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9D-3C-12-64-78-C3-7D-0F-0A-E3-31-6D-94-B6-C3-A3-86-A1-9F-5A">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Debug\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:01.2848572Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-32-0B-38-46-06-C7-DE-9E-91-FE-70-1F-D2-1D-D5-7C-29-17-C0">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.6681141Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-E7-3F-B7-6C-B7-93-B9-F9-D7-AF-D0-AA-58-C9-75-5C-8F-0A-92">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:05:16.6212555Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C2-8A-A8-DF-AA-E5-95-02-48-0F-79-86-98-35-6F-5D-58-4C-45-98">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.7082446Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="62-08-E5-7F-98-71-E7-15-1A-41-96-FD-AA-D0-E9-33-41-53-67-2D">
+      <Summary numSequencePoints="104" visitedSequencePoints="101" numBranchPoints="59" visitedBranchPoints="52" sequenceCoverage="97.12" branchCoverage="88.14" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="11" numMethods="11" />
+      <ModulePath>c:\test\2julykconnors\lawnmowers.test\bin\debug\LawnMowers.Service.dll</ModulePath>
+      <ModuleTime>2016-10-17T09:22:43.7948723Z</ModuleTime>
+      <ModuleName>LawnMowers.Service</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\test\2JulyKConnors\LawnMowers.Logic\LawnLogic.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="102" visitedSequencePoints="99" numBranchPoints="57" visitedBranchPoints="50" sequenceCoverage="97.06" branchCoverage="87.72" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="9" numMethods="9" />
+          <FullName>LawnMowers.Service.LawnLogic</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="1" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="2" ordinal="1" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="3" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="4" ordinal="3" offset="19" sl="16" sc="13" el="16" ec="46" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="5" ordinal="4" offset="36" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="1" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="27" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic::BuildLawnAndMowers(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="6" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="7" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="8" ordinal="2" offset="24" sl="22" sc="13" el="22" ec="82" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="9" ordinal="3" offset="67" sl="24" sc="13" el="24" ec="41" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="10" ordinal="4" offset="77" sl="26" sc="13" el="26" ec="23" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="11" ordinal="5" offset="81" sl="28" sc="13" el="28" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="12" ordinal="6" offset="82" sl="29" sc="17" el="29" ec="95" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="13" ordinal="7" offset="102" sl="30" sc="17" el="30" ec="24" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="14" ordinal="8" offset="106" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="15" ordinal="9" offset="107" sl="27" sc="13" el="27" ec="46" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="4" uspid="16" ordinal="10" offset="122" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="19" ordinal="2" offset="120" sl="27" path="0" offsetend="122" fileid="1" />
+                <BranchPoint vc="9" uspid="20" ordinal="3" offset="120" sl="27" path="1" offsetend="81" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="6" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.String LawnMowers.Service.LawnLogic::MoveLawnMowers()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="21" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="22" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="23" ordinal="2" offset="7" sl="37" sc="13" el="37" ec="20" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="24" ordinal="3" offset="8" sl="37" sc="35" el="37" ec="47" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="25" ordinal="4" offset="27" sl="37" sc="22" el="37" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="26" ordinal="5" offset="35" sl="38" sc="13" el="38" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="27" ordinal="6" offset="36" sl="39" sc="17" el="39" ec="50" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="28" ordinal="7" offset="44" sl="40" sc="17" el="40" ec="31" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="29" ordinal="8" offset="51" sl="41" sc="21" el="41" ec="177" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="30" ordinal="9" offset="60" sl="42" sc="17" el="42" ec="96" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="31" ordinal="10" offset="105" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="32" ordinal="11" offset="106" sl="37" sc="32" el="37" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="33" ordinal="12" offset="132" sl="44" sc="13" el="44" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="34" ordinal="13" offset="137" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="35" ordinal="0" offset="49" sl="40" path="0" offsetend="51" fileid="1" />
+                <BranchPoint vc="5" uspid="36" ordinal="1" offset="49" sl="40" path="1" offsetend="60" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="21" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="60" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="5" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="60" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic::ParseLawnSize(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="39" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="40" ordinal="1" offset="1" sl="49" sc="13" el="49" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="41" ordinal="2" offset="19" sl="52" sc="13" el="52" ec="58" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="5" uspid="42" ordinal="3" offset="33" sl="53" sc="17" el="53" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="43" ordinal="4" offset="46" sl="55" sc="13" el="55" ec="58" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="5" uspid="44" ordinal="5" offset="60" sl="56" sc="17" el="56" ec="43" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="45" ordinal="6" offset="73" sl="57" sc="9" el="57" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="5" uspid="46" ordinal="0" offset="31" sl="52" path="0" offsetend="33" fileid="1" />
+                <BranchPoint vc="0" uspid="47" ordinal="1" offset="31" sl="52" path="1" offsetend="46" fileid="1" />
+                <BranchPoint vc="5" uspid="48" ordinal="2" offset="58" sl="55" path="0" offsetend="60" fileid="1" />
+                <BranchPoint vc="0" uspid="49" ordinal="3" offset="58" sl="55" path="1" offsetend="73" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="39" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="10" nPathComplexity="64" sequenceCoverage="95.24" branchCoverage="84.62" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="21" visitedSequencePoints="20" numBranchPoints="13" visitedBranchPoints="11" sequenceCoverage="95.24" branchCoverage="84.62" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Boolean LawnMowers.Service.LawnLogic::MoveMower(LawnMowers.Domain.Models.Mower)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="50" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="51" ordinal="1" offset="1" sl="61" sc="13" el="61" ec="20" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="52" ordinal="2" offset="2" sl="61" sc="39" el="61" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="53" ordinal="3" offset="16" sl="61" sc="22" el="61" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="54" ordinal="4" offset="20" sl="62" sc="13" el="62" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="55" ordinal="5" offset="21" sl="63" sc="17" el="63" ec="35" bec="5" bev="4" fileid="1" />
+                <SequencePoint vc="23" uspid="56" ordinal="6" offset="51" sl="67" sc="25" el="67" ec="97" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="23" uspid="57" ordinal="7" offset="71" sl="68" sc="25" el="68" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" uspid="58" ordinal="8" offset="76" sl="70" sc="25" el="70" ec="94" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="17" uspid="59" ordinal="9" offset="119" sl="71" sc="29" el="71" ec="91" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="14" uspid="60" ordinal="10" offset="147" sl="72" sc="30" el="72" ec="99" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="14" uspid="61" ordinal="11" offset="190" sl="73" sc="29" el="73" ec="91" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" uspid="62" ordinal="12" offset="216" sl="74" sc="25" el="74" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="63" ordinal="13" offset="218" sl="76" sc="25" el="76" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="64" ordinal="14" offset="220" sl="78" sc="17" el="78" ec="75" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="65" ordinal="15" offset="228" sl="79" sc="17" el="79" ec="37" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="66" ordinal="16" offset="235" sl="80" sc="21" el="80" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="52" uspid="67" ordinal="17" offset="240" sl="81" sc="13" el="81" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="59" uspid="68" ordinal="18" offset="245" sl="61" sc="36" el="61" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="69" ordinal="19" offset="254" sl="82" sc="13" el="82" ec="26" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="7" uspid="70" ordinal="20" offset="259" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="39" uspid="71" ordinal="0" offset="28" sl="63" path="0" offsetchain="30" offsetend="32" fileid="1" />
+                <BranchPoint vc="15" uspid="72" ordinal="1" offset="28" sl="63" path="1" offsetend="51" fileid="1" />
+                <BranchPoint vc="8" uspid="73" ordinal="2" offset="36" sl="63" path="0" offsetchain="38" offsetend="40" fileid="1" />
+                <BranchPoint vc="31" uspid="74" ordinal="3" offset="36" sl="63" path="1" offsetend="76" fileid="1" />
+                <BranchPoint vc="0" uspid="75" ordinal="4" offset="44" sl="63" path="0" offsetchain="46 218" offsetend="220" fileid="1" />
+                <BranchPoint vc="23" uspid="76" ordinal="5" offset="44" sl="63" path="1" offsetend="51" fileid="1" />
+                <BranchPoint vc="17" uspid="79" ordinal="8" offset="117" sl="70" path="0" offsetend="119" fileid="1" />
+                <BranchPoint vc="14" uspid="80" ordinal="9" offset="117" sl="70" path="1" offsetend="147" fileid="1" />
+                <BranchPoint vc="14" uspid="83" ordinal="12" offset="188" sl="72" path="0" offsetend="190" fileid="1" />
+                <BranchPoint vc="0" uspid="84" ordinal="13" offset="188" sl="72" path="1" offsetchain="216" offsetend="220" fileid="1" />
+                <BranchPoint vc="2" uspid="85" ordinal="14" offset="233" sl="79" path="0" offsetend="235" fileid="1" />
+                <BranchPoint vc="52" uspid="86" ordinal="15" offset="233" sl="79" path="1" offsetend="240" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="50" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="6" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Boolean LawnMowers.Service.LawnLogic::DoesMowerCollideWithAnything(LawnMowers.Domain.Models.Mower)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="54" uspid="89" ordinal="0" offset="13" sl="86" sc="9" el="86" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="90" ordinal="1" offset="14" sl="87" sc="13" el="87" ec="139" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="91" ordinal="2" offset="97" sl="88" sc="17" el="88" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="53" uspid="92" ordinal="3" offset="101" sl="90" sc="13" el="90" ec="123" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="93" ordinal="4" offset="141" sl="91" sc="17" el="91" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="52" uspid="94" ordinal="5" offset="145" sl="93" sc="13" el="93" ec="26" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="54" uspid="95" ordinal="6" offset="149" sl="94" sc="9" el="94" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="102" ordinal="6" offset="95" sl="87" path="0" offsetend="97" fileid="1" />
+                <BranchPoint vc="53" uspid="103" ordinal="7" offset="95" sl="87" path="1" offsetend="101" fileid="1" />
+                <BranchPoint vc="1" uspid="104" ordinal="8" offset="139" sl="90" path="0" offsetend="141" fileid="1" />
+                <BranchPoint vc="52" uspid="105" ordinal="9" offset="139" sl="90" path="1" offsetend="145" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="54" uspid="106" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="85.71" branchCoverage="80" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="6" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="85.71" branchCoverage="80" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Int32 LawnMowers.Service.LawnLogic::MoveMowerForward(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="31" uspid="107" ordinal="0" offset="0" sl="97" sc="9" el="97" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" uspid="108" ordinal="1" offset="1" sl="98" sc="13" el="98" ec="70" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="17" uspid="109" ordinal="2" offset="32" sl="99" sc="17" el="99" ec="26" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="14" uspid="110" ordinal="3" offset="36" sl="100" sc="13" el="100" ec="70" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="14" uspid="111" ordinal="4" offset="67" sl="101" sc="17" el="101" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="112" ordinal="5" offset="71" sl="102" sc="13" el="102" ec="22" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" uspid="113" ordinal="6" offset="75" sl="103" sc="9" el="103" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="17" uspid="116" ordinal="2" offset="30" sl="98" path="0" offsetend="32" fileid="1" />
+                <BranchPoint vc="14" uspid="117" ordinal="3" offset="30" sl="98" path="1" offsetend="36" fileid="1" />
+                <BranchPoint vc="14" uspid="120" ordinal="6" offset="65" sl="100" path="0" offsetend="67" fileid="1" />
+                <BranchPoint vc="0" uspid="121" ordinal="7" offset="65" sl="100" path="1" offsetend="71" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="31" uspid="107" ordinal="0" offset="0" sl="97" sc="9" el="97" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="9" nPathComplexity="256" sequenceCoverage="93.75" branchCoverage="94.12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="16" visitedSequencePoints="15" numBranchPoints="17" visitedBranchPoints="16" sequenceCoverage="93.75" branchCoverage="94.12" maxCyclomaticComplexity="9" minCyclomaticComplexity="9" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.String LawnMowers.Service.LawnLogic::SpinMower(System.String,System.Char)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="23" uspid="122" ordinal="0" offset="0" sl="106" sc="9" el="106" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="23" uspid="123" ordinal="1" offset="1" sl="107" sc="13" el="107" ec="39" bec="8" bev="7" fileid="1" />
+                <SequencePoint vc="6" uspid="124" ordinal="2" offset="57" sl="110" sc="21" el="110" ec="42" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="125" ordinal="3" offset="66" sl="111" sc="25" el="111" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="126" ordinal="4" offset="74" sl="113" sc="25" el="113" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="127" ordinal="5" offset="82" sl="115" sc="21" el="115" ec="42" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="128" ordinal="6" offset="91" sl="116" sc="25" el="116" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="129" ordinal="7" offset="99" sl="118" sc="25" el="118" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="6" uspid="130" ordinal="8" offset="107" sl="120" sc="21" el="120" ec="42" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="131" ordinal="9" offset="118" sl="121" sc="25" el="121" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="132" ordinal="10" offset="126" sl="123" sc="25" el="123" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="6" uspid="133" ordinal="11" offset="134" sl="125" sc="21" el="125" ec="42" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="2" uspid="134" ordinal="12" offset="145" sl="126" sc="25" el="126" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="135" ordinal="13" offset="153" sl="128" sc="25" el="128" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="136" ordinal="14" offset="161" sl="130" sc="13" el="130" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="23" uspid="137" ordinal="15" offset="165" sl="131" sc="9" el="131" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="17" uspid="138" ordinal="0" offset="14" sl="107" path="0" offsetend="16" fileid="1" />
+                <BranchPoint vc="6" uspid="139" ordinal="1" offset="14" sl="107" path="1" offsetend="57" fileid="1" />
+                <BranchPoint vc="12" uspid="140" ordinal="2" offset="27" sl="107" path="0" offsetend="29" fileid="1" />
+                <BranchPoint vc="5" uspid="141" ordinal="3" offset="27" sl="107" path="1" offsetend="82" fileid="1" />
+                <BranchPoint vc="6" uspid="142" ordinal="4" offset="40" sl="107" path="0" offsetend="42" fileid="1" />
+                <BranchPoint vc="6" uspid="143" ordinal="5" offset="40" sl="107" path="1" offsetend="107" fileid="1" />
+                <BranchPoint vc="0" uspid="144" ordinal="6" offset="53" sl="107" path="0" offsetchain="55" offsetend="161" fileid="1" />
+                <BranchPoint vc="6" uspid="145" ordinal="7" offset="53" sl="107" path="1" offsetend="134" fileid="1" />
+                <BranchPoint vc="2" uspid="146" ordinal="8" offset="64" sl="110" path="0" offsetend="66" fileid="1" />
+                <BranchPoint vc="4" uspid="147" ordinal="9" offset="64" sl="110" path="1" offsetend="74" fileid="1" />
+                <BranchPoint vc="2" uspid="148" ordinal="10" offset="89" sl="115" path="0" offsetend="91" fileid="1" />
+                <BranchPoint vc="3" uspid="149" ordinal="11" offset="89" sl="115" path="1" offsetend="99" fileid="1" />
+                <BranchPoint vc="2" uspid="150" ordinal="12" offset="116" sl="120" path="0" offsetend="118" fileid="1" />
+                <BranchPoint vc="4" uspid="151" ordinal="13" offset="116" sl="120" path="1" offsetend="126" fileid="1" />
+                <BranchPoint vc="2" uspid="152" ordinal="14" offset="143" sl="125" path="0" offsetend="145" fileid="1" />
+                <BranchPoint vc="4" uspid="153" ordinal="15" offset="143" sl="125" path="1" offsetend="153" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="122" ordinal="0" offset="0" sl="106" sc="9" el="106" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="80" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="80" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic::AddNewMower(System.Collections.Generic.KeyValuePair`2&lt;System.String,System.String&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="154" ordinal="0" offset="0" sl="134" sc="9" el="134" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="155" ordinal="1" offset="1" sl="135" sc="13" el="135" ec="58" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="156" ordinal="2" offset="25" sl="136" sc="13" el="136" ec="37" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="157" ordinal="3" offset="31" sl="139" sc="13" el="139" ec="62" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="9" uspid="158" ordinal="4" offset="45" sl="140" sc="17" el="140" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="159" ordinal="5" offset="53" sl="142" sc="13" el="142" ec="62" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="8" uspid="160" ordinal="6" offset="69" sl="143" sc="17" el="143" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" uspid="161" ordinal="7" offset="77" sl="145" sc="13" el="145" ec="65" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="162" ordinal="8" offset="92" sl="146" sc="13" el="146" ec="74" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="163" ordinal="9" offset="116" sl="148" sc="13" el="148" ec="62" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="164" ordinal="10" offset="129" sl="149" sc="13" el="149" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="165" ordinal="11" offset="142" sl="150" sc="13" el="150" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="166" ordinal="12" offset="155" sl="152" sc="13" el="152" ec="37" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="167" ordinal="13" offset="173" sl="153" sc="9" el="153" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="9" uspid="168" ordinal="0" offset="43" sl="139" path="0" offsetend="45" fileid="1" />
+                <BranchPoint vc="0" uspid="169" ordinal="1" offset="43" sl="139" path="1" offsetend="53" fileid="1" />
+                <BranchPoint vc="8" uspid="170" ordinal="2" offset="67" sl="142" path="0" offsetend="69" fileid="1" />
+                <BranchPoint vc="1" uspid="171" ordinal="3" offset="67" sl="142" path="1" offsetend="77" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="154" ordinal="0" offset="0" sl="134" sc="9" el="134" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>LawnMowers.Service.LawnLogic/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="172" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="173" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Boolean LawnMowers.Service.LawnLogic/&lt;&gt;c::&lt;BuildLawnAndMowers&gt;b__2_0(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="29" uspid="174" ordinal="0" offset="0" sl="22" sc="46" el="22" ec="70" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="29" uspid="174" ordinal="0" offset="0" sl="22" sc="46" el="22" ec="70" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>LawnMowers.Service.LawnLogic/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void LawnMowers.Service.LawnLogic/&lt;&gt;c__DisplayClass6_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="54" uspid="175" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Boolean LawnMowers.Service.LawnLogic/&lt;&gt;c__DisplayClass6_0::&lt;DoesMowerCollideWithAnything&gt;b__0(LawnMowers.Domain.Models.Mower)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="106" uspid="176" ordinal="0" offset="0" sl="90" sc="41" el="90" ec="109" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="106" uspid="176" ordinal="0" offset="0" sl="90" sc="41" el="90" ec="109" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="50-1B-1B-2E-0B-1C-DB-0B-6C-6A-13-6F-C1-CE-96-5F-5F-E8-49-8C">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\QTAgent32.exe</ModulePath>
+      <ModuleTime>2015-07-07T00:51:38Z</ModuleTime>
+      <ModuleName>QTAgent32</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="59-1F-98-4F-C2-80-83-2E-DB-A5-09-F9-B7-81-89-21-BF-14-3D-76">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentObject\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentObject.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:08:00.0966211Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-3B-06-8C-A3-CC-F8-2A-DC-15-1E-A7-A9-99-5E-3E-2F-E0-F2-B5">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</ModulePath>
+      <ModuleTime>2016-03-28T23:08:00.2372514Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-37-7A-DA-73-D4-47-18-27-60-F2-0B-63-96-18-D5-CF-DD-9F-B7">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.Enterprise.AspNetHelper.dll</ModulePath>
+      <ModuleTime>2016-06-20T14:45:20Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.Enterprise.AspNetHelper</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
       <Classes />
     </Module>
   </Modules>

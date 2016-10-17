@@ -30,14 +30,12 @@ C:\Users\Kerri\Desktop\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practic
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Test.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Test.pdb
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Domain.dll
-C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Logic.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.Unity.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Domain.pdb
-C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Logic.pdb
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.Unity.xml
@@ -46,3 +44,5 @@ C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\Microsoft.Practices.Unity.Regist
 C:\test\2JulyKConnors\LawnMowers.Test\obj\Debug\LawnMowers.Test.csprojResolveAssemblyReference.cache
 C:\test\2JulyKConnors\LawnMowers.Test\obj\Debug\LawnMowers.Test.dll
 C:\test\2JulyKConnors\LawnMowers.Test\obj\Debug\LawnMowers.Test.pdb
+C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Service.dll
+C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Service.pdb

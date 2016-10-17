@@ -1,0 +1,7 @@
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Service.dll.config
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Service.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Service.pdb
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\bin\Debug\LawnMowers.Domain.pdb
+C:\test\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Service.dll
+C:\test\2JulyKConnors\LawnMowers.Logic\obj\Debug\LawnMowers.Service.pdb

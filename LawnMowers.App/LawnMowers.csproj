@@ -80,9 +80,9 @@
       <Project>{9698281B-C8B5-41D5-9A7B-53E3DBF12334}</Project>
       <Name>LawnMowers.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LawnMowers.Logic\LawnMowers.Logic.csproj">
+    <ProjectReference Include="..\LawnMowers.Logic\LawnMowers.Service.csproj">
       <Project>{B5F6927D-B5BD-4664-8225-ED3AB0043DA8}</Project>
-      <Name>LawnMowers.Logic</Name>
+      <Name>LawnMowers.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

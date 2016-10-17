@@ -311,6 +311,11 @@ window.matchMedia || (window.matchMedia = function() {
 
 
 var assemblies = [
+  {
+    "name" : "LawnMowers.Service",
+    "classes" : [
+    {  "name" : "LawnMowers.Service.LawnLogic", "reportPath" : "LawnMowers.Service_LawnLogic.htm", "coveredLines" : 93, "uncoveredLines" : 3, "coverableLines" : 96, "totalLines" : 155, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 41, "totalBranches" : 48, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
+  ]},
 ];
 
 var translations = {

@@ -1,10 +1,10 @@
-﻿using LawnMowers.Domain.Interfaces;
-using LawnMowers.Domain.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using LawnMowers.Domain.Interfaces;
+using LawnMowers.Domain.Models;
 
-namespace LawnMowers.Logic
+namespace LawnMowers.Service
 {
     public class LawnLogic : ILawnLogic
     {
