@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LawnMowers.Test", "LawnMowe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LawnMowers.Domain", "LawnMowers.Domain\LawnMowers.Domain.csproj", "{9698281B-C8B5-41D5-9A7B-53E3DBF12334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LawnMowers.App", "LawnMowers.App\LawnMowers.App.csproj", "{4E389E1A-68B7-4703-A651-F66593606787}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LawnMowers", "LawnMowers.App\LawnMowers.csproj", "{4E389E1A-68B7-4703-A651-F66593606787}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9117C47-A2AD-43B7-A58F-6016D2C6AEB8}"
 	ProjectSection(SolutionItems) = preProject
