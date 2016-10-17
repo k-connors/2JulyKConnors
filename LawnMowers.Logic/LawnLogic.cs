@@ -151,5 +151,13 @@ namespace LawnMowers.Service
 
             _lawn.Mowers.Add(mower);
         }
+
+        private void AddingANewMethodThatWillNotBeTested(string randomVariable, int uselessInteger)
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                randomVariable += i;
+            }
+        }
     }
 }
