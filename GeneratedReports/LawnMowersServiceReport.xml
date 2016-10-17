@@ -116,9 +116,9 @@
       <ModuleName>Microsoft.VisualStudio.TeamSystem.Licensing</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="A7-19-32-63-FE-18-97-73-BB-D7-3E-6A-F1-5A-36-30-80-25-43-24">
+    <Module skippedDueTo="Filter" hash="55-2E-9A-0C-66-D3-30-F6-A1-43-5F-A0-D3-F9-8F-9B-01-2F-EC-7D">
       <ModulePath>C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Test.dll</ModulePath>
-      <ModuleTime>2016-10-17T07:55:58.4373974Z</ModuleTime>
+      <ModuleTime>2016-10-17T09:22:44.5368957Z</ModuleTime>
       <ModuleName>LawnMowers.Test</ModuleName>
       <Classes />
     </Module>

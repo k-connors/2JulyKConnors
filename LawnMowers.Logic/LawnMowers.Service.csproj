@@ -7,8 +7,8 @@
     <ProjectGuid>{B5F6927D-B5BD-4664-8225-ED3AB0043DA8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LawnMowers.Logic</RootNamespace>
-    <AssemblyName>LawnMowers.Logic</AssemblyName>
+    <RootNamespace>LawnMowers.Service</RootNamespace>
+    <AssemblyName>LawnMowers.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

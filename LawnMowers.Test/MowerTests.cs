@@ -1,5 +1,5 @@
 ﻿using LawnMowers.Domain.Interfaces;
-using LawnMowers.Logic;
+using LawnMowers.Service;
 using Microsoft.Practices.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

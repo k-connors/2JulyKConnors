@@ -1,8 +1,8 @@
 ﻿using LawnMowers.Domain.Interfaces;
-using LawnMowers.Logic;
 using Microsoft.Practices.Unity;
 using System;
 using System.Windows.Forms;
+using LawnMowers.Service;
 
 namespace LawnMowers.App
 {
