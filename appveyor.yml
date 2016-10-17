@@ -2,4 +2,5 @@ version: 1.0.{build}
 build:
   project: LawnMowers.sln
   verbosity: minimal
-on_finish: \tests.bat
+on_finish: 
+  cmd: "\tests.bat"
