@@ -3,4 +3,4 @@ build:
   project: LawnMowers.sln
   verbosity: minimal
 on_finish: 
-  cmd: "\tests.bat"
+  cmd: "tests.bat"
