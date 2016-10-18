@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="38f39e19-49d8-4395-ae00-4232ddd87152" name="KerryDevTest@KERRYDEVTEST 2016-10-17 10:42:03" runUser="KERRYDEVTEST\KerryDevTest" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Default Test Settings" id="54a528f7-9ef9-4859-978a-e45850d87019">
-    <Deployment userDeploymentRoot="C:\test\2JulyKConnors" useDefaultDeploymentRoot="false" runDeploymentRoot="KerryDevTest_KERRYDEVTEST 2016-10-17 10_42_03" />
+<TestRun id="1b4c5d99-77ae-4ba6-9f32-29ff638b6965" name="KerryDevTest@KERRYDEVTEST 2016-10-18 09:43:26" runUser="KERRYDEVTEST\KerryDevTest" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c46847a9-99f8-48a5-afb2-5056c8203e7f">
+    <Deployment userDeploymentRoot="C:\test\2JulyKConnors" useDefaultDeploymentRoot="false" runDeploymentRoot="KerryDevTest_KERRYDEVTEST 2016-10-18 09_43_26" />
     <Execution>
       <TestTypeSpecific />
       <AgentRule name="Execution Agents">
@@ -9,29 +9,29 @@
     </Execution>
     <Properties />
   </TestSettings>
-  <Times creation="2016-10-17T10:42:03.1529693+01:00" queuing="2016-10-17T10:42:07.1741761+01:00" start="2016-10-17T10:42:07.7002028+01:00" finish="2016-10-17T10:42:09.5092954+01:00" />
+  <Times creation="2016-10-18T09:43:26.3090276+01:00" queuing="2016-10-18T09:43:30.3612372+01:00" start="2016-10-18T09:43:30.7502577+01:00" finish="2016-10-18T09:43:32.2543345+01:00" />
   <ResultSummary outcome="Completed">
     <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
     <UnitTest name="ProvidedTestInputWithExtraBreaks" storage="c:\test\2julykconnors\\lawnmowers.test\bin\debug\lawnmowers.test.dll" id="166bb572-ac9c-bcb2-d5be-33f8537ac5e7">
-      <Execution id="bbc42669-7511-4e84-817f-7983b1d78d8d" />
+      <Execution id="84842ed9-b1fc-4066-bfdb-153f143b5a3a" />
       <TestMethod codeBase="C:/test/2JulyKConnors/LawnMowers.Test/bin/Debug/LawnMowers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LawnMowers.Test.MowerTests, LawnMowers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProvidedTestInputWithExtraBreaks" />
     </UnitTest>
     <UnitTest name="TestInputOutsideBoundsOfLawn" storage="c:\test\2julykconnors\\lawnmowers.test\bin\debug\lawnmowers.test.dll" id="3c132d34-1697-1556-60b2-40818134290f">
-      <Execution id="3c4c9de2-a65b-4adb-852f-c9113b2f915d" />
+      <Execution id="1eca3d68-c807-48a6-befb-fd87e34995c2" />
       <TestMethod codeBase="C:/test/2JulyKConnors/LawnMowers.Test/bin/Debug/LawnMowers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LawnMowers.Test.MowerTests, LawnMowers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInputOutsideBoundsOfLawn" />
     </UnitTest>
     <UnitTest name="TestInputMowersCollide" storage="c:\test\2julykconnors\\lawnmowers.test\bin\debug\lawnmowers.test.dll" id="8c5ce5b5-f573-1fa6-8c6e-a8b6948c85ab">
-      <Execution id="6f64fe53-6a77-4da7-ad76-1880a118fb80" />
+      <Execution id="47b71eda-492a-440f-9599-23505e6e773f" />
       <TestMethod codeBase="C:/test/2JulyKConnors/LawnMowers.Test/bin/Debug/LawnMowers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LawnMowers.Test.MowerTests, LawnMowers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInputMowersCollide" />
     </UnitTest>
     <UnitTest name="TestIncompleteInput" storage="c:\test\2julykconnors\\lawnmowers.test\bin\debug\lawnmowers.test.dll" id="2481f455-9951-1c9f-4bc8-16787a2e693b">
-      <Execution id="cbf63ea7-1ae7-46a4-b30f-3ab6ac398fea" />
+      <Execution id="d4ba4b0a-2239-40ca-ac13-7a82949ef01c" />
       <TestMethod codeBase="C:/test/2JulyKConnors/LawnMowers.Test/bin/Debug/LawnMowers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LawnMowers.Test.MowerTests, LawnMowers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIncompleteInput" />
     </UnitTest>
     <UnitTest name="ProvidedTestInput" storage="c:\test\2julykconnors\\lawnmowers.test\bin\debug\lawnmowers.test.dll" id="9cee607c-424d-1706-9a52-083e70cbdd2f">
-      <Execution id="0e14729b-7152-4297-babc-b76c58005282" />
+      <Execution id="29a45d8c-e18a-4691-aeb6-64e4a3f56592" />
       <TestMethod codeBase="C:/test/2JulyKConnors/LawnMowers.Test/bin/Debug/LawnMowers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LawnMowers.Test.MowerTests, LawnMowers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProvidedTestInput" />
     </UnitTest>
   </TestDefinitions>
@@ -40,22 +40,22 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="9cee607c-424d-1706-9a52-083e70cbdd2f" executionId="0e14729b-7152-4297-babc-b76c58005282" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="166bb572-ac9c-bcb2-d5be-33f8537ac5e7" executionId="bbc42669-7511-4e84-817f-7983b1d78d8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="2481f455-9951-1c9f-4bc8-16787a2e693b" executionId="cbf63ea7-1ae7-46a4-b30f-3ab6ac398fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="8c5ce5b5-f573-1fa6-8c6e-a8b6948c85ab" executionId="6f64fe53-6a77-4da7-ad76-1880a118fb80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="3c132d34-1697-1556-60b2-40818134290f" executionId="3c4c9de2-a65b-4adb-852f-c9113b2f915d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cee607c-424d-1706-9a52-083e70cbdd2f" executionId="29a45d8c-e18a-4691-aeb6-64e4a3f56592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="166bb572-ac9c-bcb2-d5be-33f8537ac5e7" executionId="84842ed9-b1fc-4066-bfdb-153f143b5a3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2481f455-9951-1c9f-4bc8-16787a2e693b" executionId="d4ba4b0a-2239-40ca-ac13-7a82949ef01c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c5ce5b5-f573-1fa6-8c6e-a8b6948c85ab" executionId="47b71eda-492a-440f-9599-23505e6e773f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c132d34-1697-1556-60b2-40818134290f" executionId="1eca3d68-c807-48a6-befb-fd87e34995c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="0e14729b-7152-4297-babc-b76c58005282" testId="9cee607c-424d-1706-9a52-083e70cbdd2f" testName="ProvidedTestInput" computerName="KERRYDEVTEST" duration="00:00:00.5906146" startTime="2016-10-17T10:42:07.7892061+01:00" endTime="2016-10-17T10:42:09.0932735+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e14729b-7152-4297-babc-b76c58005282">
+    <UnitTestResult executionId="29a45d8c-e18a-4691-aeb6-64e4a3f56592" testId="9cee607c-424d-1706-9a52-083e70cbdd2f" testName="ProvidedTestInput" computerName="KERRYDEVTEST" duration="00:00:00.3872579" startTime="2016-10-18T09:43:30.8832635+01:00" endTime="2016-10-18T09:43:31.9913198+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29a45d8c-e18a-4691-aeb6-64e4a3f56592">
     </UnitTestResult>
-    <UnitTestResult executionId="bbc42669-7511-4e84-817f-7983b1d78d8d" testId="166bb572-ac9c-bcb2-d5be-33f8537ac5e7" testName="ProvidedTestInputWithExtraBreaks" computerName="KERRYDEVTEST" duration="00:00:00.0563217" startTime="2016-10-17T10:42:09.1272745+01:00" endTime="2016-10-17T10:42:09.2113479+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbc42669-7511-4e84-817f-7983b1d78d8d">
+    <UnitTestResult executionId="84842ed9-b1fc-4066-bfdb-153f143b5a3a" testId="166bb572-ac9c-bcb2-d5be-33f8537ac5e7" testName="ProvidedTestInputWithExtraBreaks" computerName="KERRYDEVTEST" duration="00:00:00.0023190" startTime="2016-10-18T09:43:32.0023216+01:00" endTime="2016-10-18T09:43:32.0343239+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84842ed9-b1fc-4066-bfdb-153f143b5a3a">
     </UnitTestResult>
-    <UnitTestResult executionId="cbf63ea7-1ae7-46a4-b30f-3ab6ac398fea" testId="2481f455-9951-1c9f-4bc8-16787a2e693b" testName="TestIncompleteInput" computerName="KERRYDEVTEST" duration="00:00:00.0171172" startTime="2016-10-17T10:42:09.2142789+01:00" endTime="2016-10-17T10:42:09.2752838+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbf63ea7-1ae7-46a4-b30f-3ab6ac398fea">
+    <UnitTestResult executionId="d4ba4b0a-2239-40ca-ac13-7a82949ef01c" testId="2481f455-9951-1c9f-4bc8-16787a2e693b" testName="TestIncompleteInput" computerName="KERRYDEVTEST" duration="00:00:00.0097293" startTime="2016-10-18T09:43:32.0363244+01:00" endTime="2016-10-18T09:43:32.0553254+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4ba4b0a-2239-40ca-ac13-7a82949ef01c">
     </UnitTestResult>
-    <UnitTestResult executionId="6f64fe53-6a77-4da7-ad76-1880a118fb80" testId="8c5ce5b5-f573-1fa6-8c6e-a8b6948c85ab" testName="TestInputMowersCollide" computerName="KERRYDEVTEST" duration="00:00:00.0017271" startTime="2016-10-17T10:42:09.2792841+01:00" endTime="2016-10-17T10:42:09.2962847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f64fe53-6a77-4da7-ad76-1880a118fb80">
+    <UnitTestResult executionId="47b71eda-492a-440f-9599-23505e6e773f" testId="8c5ce5b5-f573-1fa6-8c6e-a8b6948c85ab" testName="TestInputMowersCollide" computerName="KERRYDEVTEST" duration="00:00:00.0106359" startTime="2016-10-18T09:43:32.0583238+01:00" endTime="2016-10-18T09:43:32.0813266+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b71eda-492a-440f-9599-23505e6e773f">
     </UnitTestResult>
-    <UnitTestResult executionId="3c4c9de2-a65b-4adb-852f-c9113b2f915d" testId="3c132d34-1697-1556-60b2-40818134290f" testName="TestInputOutsideBoundsOfLawn" computerName="KERRYDEVTEST" duration="00:00:00.0020642" startTime="2016-10-17T10:42:09.3022845+01:00" endTime="2016-10-17T10:42:09.3302855+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c4c9de2-a65b-4adb-852f-c9113b2f915d">
+    <UnitTestResult executionId="1eca3d68-c807-48a6-befb-fd87e34995c2" testId="3c132d34-1697-1556-60b2-40818134290f" testName="TestInputOutsideBoundsOfLawn" computerName="KERRYDEVTEST" duration="00:00:00.0013521" startTime="2016-10-18T09:43:32.0853253+01:00" endTime="2016-10-18T09:43:32.0993256+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eca3d68-c807-48a6-befb-fd87e34995c2">
     </UnitTestResult>
   </Results>
 </TestRun>

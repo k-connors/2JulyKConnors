@@ -118,7 +118,7 @@
     </Module>
     <Module skippedDueTo="Filter" hash="55-2E-9A-0C-66-D3-30-F6-A1-43-5F-A0-D3-F9-8F-9B-01-2F-EC-7D">
       <ModulePath>C:\test\2JulyKConnors\LawnMowers.Test\bin\Debug\LawnMowers.Test.dll</ModulePath>
-      <ModuleTime>2016-10-17T09:22:44.5368957Z</ModuleTime>
+      <ModuleTime>2016-10-17T13:20:24.0733475Z</ModuleTime>
       <ModuleName>LawnMowers.Test</ModuleName>
       <Classes />
     </Module>
@@ -233,7 +233,7 @@
     <Module hash="62-08-E5-7F-98-71-E7-15-1A-41-96-FD-AA-D0-E9-33-41-53-67-2D">
       <Summary numSequencePoints="104" visitedSequencePoints="101" numBranchPoints="59" visitedBranchPoints="52" sequenceCoverage="97.12" branchCoverage="88.14" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="11" numMethods="11" />
       <ModulePath>c:\test\2julykconnors\lawnmowers.test\bin\debug\LawnMowers.Service.dll</ModulePath>
-      <ModuleTime>2016-10-17T09:22:43.7948723Z</ModuleTime>
+      <ModuleTime>2016-10-17T13:20:24.0173455Z</ModuleTime>
       <ModuleName>LawnMowers.Service</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\test\2JulyKConnors\LawnMowers.Logic\LawnLogic.cs" />
