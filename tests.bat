@@ -9,11 +9,14 @@ FOR /D /R %%X IN (%USERNAME%*) DO RD /S /Q "%%X"
 
 call :RunOpenCoverUnitTestMetrics
 
- 
-REM Launch the report
 if %errorlevel% equ 0 (
  call :CoverallsGo
 )
+
+REM Remove any previously created test output directories
+CD %~dp0
+FOR /D /R %%X IN (%USERNAME%*) DO RD /S /Q "%%X"
+
 exit /b %errorlevel%
 
 :RunOpenCoverUnitTestMetrics
